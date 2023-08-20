@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Josefin+Sans:wght@200&family=Nunito:ital@0;1&family=Righteous&family=Roboto+Mono:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-image: url("./11.png");
+    font-family: 'Eczar', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+canvas {
+    position: absolute;
+}
+.titel{
+    align-items: center;
+    padding-left: 95px;
+    color:palevioletred;
+}
+footer{
+    color: aliceblue;
+    padding-top: 60px;
+    padding-left: 220px;
+}
+nav{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.navi{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.navi a{
+    color: #d055e6;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+.mb-8 {
+    color: azure;
+}
+.title-font{
+    color: #d055e6;
+}
+.about{
+    display: flex;
+    color: palevioletred;
+    text-decoration:aliceblue;
+    padding-left: 350px;
+}
+.colo{
+    color: plum;
+}
+.toto{
+    color:lightcoral;
+}
+ 
